@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <title>TaskManager</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <!-- Header section -->
+    <header>
+      <h2>Task Manager</h2>
+      <div class="inputField">
+        <input type="text" placeholder="Enter task" />
+        <button type="submit"><i class="fas fa-plus"></i></button>
+      </div>
+    </header>
+
+    <!-- Content section -->
+    <div class="content">
+      <ul class="todoList">
+        <!-- Data came from local storage -->
+      </ul>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <span>You have <span class="pendingTask"></span> pending tasks</span>
+      <button>Clear All</button>
+    </footer>
+
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
